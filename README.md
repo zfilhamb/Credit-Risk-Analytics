@@ -222,6 +222,7 @@ Sementara `persen_dp` menunjukkan pola tidak monoton (10%→1,07%, 30%→1,72% �
 Dua dashboard di Excel, saling melengkapi — satu untuk gambaran performa payment secara umum, satu lagi untuk analisis risiko lanjutan.
 
 **`Dashboard_Payment_Performece`** — KPI cards dan chart distribusi payment status, NPL per kota/merk/tenor/pekerjaan (analisis dasar).
+![alt text](image.png)
 
 **`Dashboard_Risk_Analysis`** — 4 KPI card (% Exposure NPL, High Risk Tier NPL Rate, Kontrak High Risk, Segmen Signifikan) dan 4 chart:
 - NPL Rate per Risk Tier (Finding 1)
@@ -230,6 +231,7 @@ Dua dashboard di Excel, saling melengkapi — satu untuk gambaran performa payme
 - Chi-Square p-value per Segmen, dengan garis ambang 0,05 (Finding 3) — bar Kota dan Merk Motor terlihat jelas menempel tepat di atas garis ambang
 
 Seluruh chart native Excel (bukan gambar statis) yang mengambil data dari tabel formula di sheet `Risk_Scorecard`, `Exposure_Analysis`, `Seasoning_Analysis`, dan `Chi_Square_Test` — otomatis ter-update kalau data sumber berubah, tanpa perlu refresh manual seperti PivotTable konvensional.
+![alt text](image-1.png)
 
 ---
 
